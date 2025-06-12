@@ -1,8 +1,8 @@
 {
     "name": "walle89/swedbank-json",
-    "description": " Unofficial API client for the Swedbank's and Sparbanken's mobile apps in Sweden.",
+    "description": "Unofficial API client for the Swedbank's and Sparbanken's mobile apps in Sweden.",
     "type": "library",
-    "keywords": ["swedbank","wrapper","api","json"],
+    "keywords": ["banking","client","api","json"],
     "minimum-stability": "stable",
     "license": "MIT",
     "homepage": "https://github.com/walle89/SwedbankJson",

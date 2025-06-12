@@ -1,3 +1,8 @@
+> [!CAUTION]  
+> This project is not affiliated with, endorsed by, or associated with Swedbank, Sparbanken, or any of their subsidiaries.
+> All trademarks and brand names are the property of their respective owners.
+> Use of the information and resources provided in this repository is for educational and interoperability purposes only and may be subject to legal or policy restrictions.
+
 # SwedbankJson
 
 Unofficial API client for the Swedbank's and Sparbanken's mobile apps in Sweden.
@@ -63,22 +68,21 @@ dependencies. [Read more about installing with Composer](docs/composer.md).
 
 ### Is SwedbankJson compatible with Swedbank's non-swedish apps?
 
-As far as I know, the Swedbank's API that SwedbankJson is using is unique for the Swedish market and is not used outside of Sweden.
+To the best of my knowledge, the API utilized by SwedbankJson is specific to the Swedish market and is not used by banking apps outside of Sweden.
 
-### Why use mobile apps API instead of Swedbank Open Banking API?
+### Why use the mobile apps API instead of the official Open Banking API?
 
-In short, if you can use of Swedbank's or Sparbanken's Swedish mobile apps for Android or Ios, then you can use this library right now to e.g. login to your own account and fetch
-real transaction data (aka. production access).
+In short, if you have access to the Swedish mobile banking apps for certain major banks, this library can be used immediately to, for example, log in and fetch real transaction
+data (i.e., production access).
 
-In order get similar production access for the Swedbank Open Banking API, the following are required:
+To obtain similar production access through the official Open Banking API, the following are generally required:
 
-1. Hold a PISP, AISP or similar license from a local financial regulatory authority such
-   as [Finansinspektionen](https://www.fi.se/sv/betalningar/andra-betaltjanstdirektivet-psd-2/)
-   (Swedish). Applying for a license [may involve fees](https://www.fi.se/en/payments/apply-for-authorisation/payment-services/).
+1. Hold a PISP, AISP, or equivalent license from a local financial regulatory authority such
+   as [Finansinspektionen](https://www.fi.se/sv/betalningar/andra-betaltjanstdirektivet-psd-2/). Applying for such a license may involve fees.
 2. Valid QSEAL and QWAC certificates.
-3. Apply for production access and be approved by Swedbank.
+3. Apply for and receive approval for production access from the bank.
 
-In other words, it's a long, complex (and costly) process to get started with Open Banking API.
+In summary, getting started with the official Open Banking API typically involves a lengthy, complex, and costly process.
 
 ## Support and Feedback
 
